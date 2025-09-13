@@ -6,6 +6,7 @@ namespace Inlämningsuppgift
     {
         static void Main(string[] args)
         {
+            //skapar ett objekt av min student klass
             student student1 = new student();
 
             student1.Name = "Mazen";

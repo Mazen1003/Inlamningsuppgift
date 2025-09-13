@@ -1,10 +1,12 @@
 ﻿namespace Inlämningsuppgift
 {
-    internal class Arv
+    // Basklass 
+    public class Arv
     {
         public string Name;
         public int age;
     }
+    // Subklass
     class student : Arv
     {
         public string studentinfo;
